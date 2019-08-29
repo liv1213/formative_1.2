@@ -1,0 +1,216 @@
+ 
+ .hero {
+    background-image: url('../../images/background-home.jpeg');
+      background-size: cover;
+ height: 100vh;
+ width: 100vw;
+  }
+ 
+ .hero h1 {
+     display: flex;
+     justify-content: center;
+     padding-top: 310px;
+     font-family: 'Playfair Display', serif;
+     font-size: 80px;
+     margin: 0%;
+     
+ }
+ 
+
+.hero p {
+    display: flex;
+    justify-content: center;
+    padding-top: 310px;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    margin: 0%;
+    
+}
+
+.media-item {
+    
+        background: 
+          /* top, transparent red, faked with gradient */ 
+            linear-gradient(
+                rgba(182, 117, 51, 0.918), 
+                rgba(182, 117, 51, 0.747)
+          ),
+          /* bottom, image */
+          url('../../images/background-home.jpeg');
+      
+
+// background-image: url('../../images/background-home.jpeg');
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed;
+}
+
+.media-item h1 {
+    display: flex;
+    justify-content: center;
+font-family: 'Playfair Display', serif; 
+    margin: 0%;
+    font-size: 70px;
+    color: white;
+}
+
+.media-item img {
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgb(221, 157, 73)); 
+ }
+
+
+
+.media-item p {
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+
+.media-item-2 {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+            rgba(182, 117, 51, 0.918), 
+            rgba(182, 117, 51, 0.747)
+    ),
+    /* bottom, image */
+    url('../../images/background-home.jpeg');
+
+
+// background-image: url('../../images/background-home.jpeg');
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed;
+    }
+
+
+.media-item-2 h1 {
+    display: flex;
+    justify-content: center;
+font-family: 'Playfair Display', serif; 
+    margin: 0%;
+    font-size: 70px;
+    color: white;
+}
+
+.media-item-2 img {
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgb(221, 157, 73)); 
+ }
+
+
+
+.media-item-2 p {
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+
+.footer {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    /* bottom, image */
+    url('../../images/background-home.jpeg');
+
+
+// background-image: url('../../images/background-home.jpeg');
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed;
+    }
+
+
+
+.footer img {
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgb(221, 157, 73)); 
+ }
+
+// .hero-2{
+//     background-image: url('../images/Damsteep.jpeg');
+//     background-size: cover;
+// height: 100vh;
+// width: 100vw;
+// }
+
+ .footer p {
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(182, 117, 51);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  span {
+    font-family: 'Playfair Display', serif; 
+      font-size:30px;
+      cursor: pointer; 
+      position: sticky;
+      top: 0%;
+  }
+ 
+
+  
