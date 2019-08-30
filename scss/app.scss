@@ -149,14 +149,14 @@ background-attachment: fixed;
     }
 
 
-    .footer-layout{ 
-        display: flex;
-    }
-    .footer-layout-2{
-        display: flex;
-    }
+    // .footer-layout{ 
+    //     display: flex;
+    // }
+    // .footer-layout-2{
+    //     display: flex;
+    // }
 .footer img {
-    width: 450px;
+    width: 33%;
  }
  .footer-text{
      display: flex;
@@ -248,7 +248,7 @@ background-attachment: fixed;
 
 
 //Index 2
-.header{
+.info{
     background: 
     linear-gradient(
         rgba(182, 117, 51, 0.918), 
@@ -261,34 +261,59 @@ height: 100vh;
 width: 100vw;
   }
  
-.header {
+.info {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header-title{
-padding-left: 100px;
+ .info-content{
+    padding-left: 200px;
+    padding-top: 0px;
+    padding-right: 200px;
+    align-items: center;
+ }
+
+ button{
+     background: none;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-right: 40px;
+     padding-left: 40px;
+     border-style: block;
+     border-color: black;
+     font-family: 'Playfair Display', serif; 
+     font-size: 20px;
+
+ }
+ .inquires{
+     margin-left: 35px;
+
+ }
+ .inquires:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+
 }
-.header h1 {
+ .gallery{
+     margin-left: 20px;
+ }
+ .gallery:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    
+}
+.info h1 {
     font-family: 'Playfair Display', serif; 
-    font-size: 50px;
+    font-size: 90px;
     color: white;
 }
-.header p {
+.info p {
     font-family: 'Playfair Display', serif; 
     font-size: 20px;
     color: white;
-}
-.header-infomation{
-  padding-left: 660px;
- padding-right: 100px;
-  padding-top: 300px;
-}
-.Inquires {
-    position: absolute;
-}
-.Inquires button {
-    background-color: blue;
-    border: black;
-    color: black;
-    padding: 20px;
-    
-}
+ }
+.info-text{
+    padding-right: 100px;
+ }

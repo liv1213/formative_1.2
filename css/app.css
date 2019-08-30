@@ -139,20 +139,8 @@
   background-attachment: fixed;
 }
 
-.footer-layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer-layout-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .footer img {
-  width: 450px;
+  width: 33%;
 }
 
 .footer-text {
@@ -243,7 +231,7 @@ span {
   height: 145px;
 }
 
-.header {
+.info {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(182, 117, 51, 0.918)), to(rgba(182, 117, 51, 0.747))), url("../../images/background-home.jpeg");
   background: linear-gradient(rgba(182, 117, 51, 0.918), rgba(182, 117, 51, 0.747)), url("../../images/background-home.jpeg");
   background-size: cover;
@@ -251,42 +239,72 @@ span {
   width: 100vw;
 }
 
-.header {
+.info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header-title {
-  padding-left: 100px;
+.info-content {
+  padding-left: 200px;
+  padding-top: 0px;
+  padding-right: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header h1 {
+button {
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-style: block;
+  border-color: black;
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  font-size: 20px;
+}
+
+.inquires {
+  margin-left: 35px;
+}
+
+.inquires:hover {
+  cursor: pointer;
+  background: black;
   color: white;
 }
 
-.header p {
+.gallery {
+  margin-left: 20px;
+}
+
+.gallery:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.info h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  color: white;
+}
+
+.info p {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
   color: white;
 }
 
-.header-infomation {
-  padding-left: 660px;
+.info-text {
   padding-right: 100px;
-  padding-top: 300px;
-}
-
-.Inquires {
-  position: absolute;
-}
-
-.Inquires button {
-  background-color: blue;
-  border: black;
-  color: black;
-  padding: 20px;
 }
 /*# sourceMappingURL=app.css.map */
