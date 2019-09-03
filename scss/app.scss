@@ -49,7 +49,7 @@ display: flex;
 
 .heading{
     position: absolute;
-    top: 940px;
+    top: 1040px;
     left: 130px;
 }
 .heading h1 {
@@ -67,7 +67,7 @@ padding-top: 200px;
 
 .media-intro {
     padding-top: 400px;
-    padding-left: 100px;
+    padding-left: 90px;
     padding-right: 50px;
 }
 
@@ -83,7 +83,7 @@ padding-top: 200px;
 // OUR WINE
 .Wine {
 position: absolute;
-top: 1440px;
+top: 1650px;
 left: 670px;
 }
 .Wine h1 {
@@ -144,7 +144,7 @@ padding-bottom: 100px;
     url('../../images/background-home.jpeg');
 
 background-size: cover;
-height: 100vh;
+height: 90vh;
 width: 100vw;
 background-attachment: fixed;
     }
@@ -172,7 +172,7 @@ background-attachment: fixed;
     url('../../images/background-home.jpeg');
 
 background-size: cover;
-height: 30vh;
+height: 20vh;
 width: 100vw;
 background-attachment: fixed;
     }
@@ -183,7 +183,7 @@ background-attachment: fixed;
  
  .footer p {
     font-family: 'Playfair Display', serif; 
-    line-height: 45px;
+    line-height: 20px;
     color: white;
 }
 .footer-text-1{
@@ -194,7 +194,7 @@ background-attachment: fixed;
 }
 .footer-text-2{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     padding-right: 60px;
     
 
@@ -356,3 +356,197 @@ width: 100vw;
 .info-text{
     padding-right: 100px;
  }
+
+
+//  Index 3
+
+// CONTACT FORM
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: none;
+    outline: none;
+    border-radius: 0%;
+  }
+  
+  input[type=submit] {
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    background: none;
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    margin-left: 220px;
+    outline: none;
+    border-radius: 0%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #030303;
+    color: white;
+  }
+  
+  .contact-container {
+    border-radius: 5px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 40px;
+    
+  }
+
+label{
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    color: white;
+    margin-left: 220px;
+}
+
+textarea {
+    font-family: 'Playfair Display', serif; 
+    font-size: 10px;
+    color: #f1f1f1;
+}
+
+input[type=text]{
+    font-family: 'Playfair Display', serif; 
+    font-size: 10px;
+    color: #f1f1f1 !important;
+}
+.contact {
+    background: 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    url('../../images/background-home.jpeg');
+
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 210px;
+}
+.contact-heading{
+   position: absolute;
+   top:100px;
+   left: 600px;
+}
+.contact-heading h1{
+    font-family: 'Playfair Display', serif; 
+    font-size: 50px;
+    color: white;
+}
+
+
+.cellar-door{
+    position: absolute;
+    top: 880px;
+ }
+ 
+ .cellar-door h1{
+     margin: 0%;
+     color: white;
+     font-family: 'Playfair Display', serif; 
+     font-size: 40px; 
+     text-align: center;
+ }
+ 
+ .cellar-door p{
+     margin: 0%;
+     color: white;
+     font-family: 'Playfair Display', serif; 
+     font-size: 30px; 
+     text-align: center;
+     padding-left: 610px;
+     padding-right: 610px;
+ }
+ 
+ 
+
+.contact-info {
+   
+    background: 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    url('../../images/background-home.jpeg');
+
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed;
+}
+.contact-info-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 600px;
+}
+.contact-info-2 {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.contact-info-2 p{
+    padding-left: 45px;
+}
+.contact-info-3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 400px;
+}
+.contact-info-4 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-info-4 p{
+    padding-left: 60px;
+}
+.contact-info h1{
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 40px; 
+    text-align: center;
+}
+.contact-info p{
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+
+.map {
+    background: 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    url('../../images/background-home.jpeg');
+
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed; 
+}
