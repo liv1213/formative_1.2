@@ -5,30 +5,11 @@
   width: 100vw;
 }
 
-.hero h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 310px;
-  font-family: 'Playfair Display', serif;
-  font-size: 80px;
-  margin: 0%;
-}
-
-.hero p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 310px;
-  font-family: 'Playfair Display', serif;
-  font-size: 80px;
-  margin: 0%;
+.logo img {
+  position: absolute;
+  width: 50%;
+  top: 250px;
+  left: 340px;
 }
 
 .media {
@@ -348,6 +329,19 @@ button {
 
 .inquires {
   margin-left: 35px;
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  outline: none;
+  text-decoration: none;
+  color: black;
+  border-width: thin;
 }
 
 .inquires:hover {
@@ -381,6 +375,26 @@ button {
 
 .info-text {
   padding-right: 120px;
+}
+
+::-webkit-input-placeholder {
+  color: #e7e2e2;
+  font-size: 13px;
+}
+
+:-ms-input-placeholder {
+  color: #e7e2e2;
+  font-size: 13px;
+}
+
+::-ms-input-placeholder {
+  color: #e7e2e2;
+  font-size: 13px;
+}
+
+::placeholder {
+  color: #e7e2e2;
+  font-size: 13px;
 }
 
 input[type=text], select, textarea {
@@ -511,42 +525,48 @@ input[type=text] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-info-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.contact-info-2 p {
-  padding-left: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-info-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-info-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.contact-info-4 p {
-  padding-left: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-info h1 {
@@ -597,5 +617,12 @@ input[type=text] {
   color: white;
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+}
+
+.social-accounts:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
 }
 /*# sourceMappingURL=app.css.map */
