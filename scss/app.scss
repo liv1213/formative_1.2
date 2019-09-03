@@ -1,7 +1,7 @@
 //  HEADER
 
  .hero {
-    background-image: url('../../images/background-home.jpeg');
+    background-image: url('../../images/background_home.png');
       background-size: cover;
  height: 100vh;
  width: 100vw;
@@ -36,7 +36,7 @@
                 rgba(182, 117, 51, 0.918), 
                 rgba(182, 117, 51, 0.747)
           ),
-          url('../../images/background-home.jpeg');
+          url('../../images/background_home.png');
 background-size: cover;
 height: 100vh;
 width: 100vw;
@@ -60,8 +60,8 @@ font-family: 'Playfair Display', serif;
 }
 
  .media img {
-    width: 460px;
-    height: 390px;
+    width: 500px;
+    height: 400px;
 padding-top: 200px;
  }
 
@@ -102,7 +102,7 @@ left: 670px;
             rgba(182, 117, 51, 0.918), 
             rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 100vh;
@@ -116,7 +116,7 @@ padding-bottom: 100px;
 }
 .media-item img {
     width: 600px;
-    height: 500px;
+    height: 400px;
  }
 
  .media-item-text{
@@ -141,10 +141,10 @@ padding-bottom: 100px;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
-height: 90vh;
+height: 95vh;
 width: 100vw;
 background-attachment: fixed;
     }
@@ -161,6 +161,28 @@ background-attachment: fixed;
     width: 33.33%;
  }
 
+
+ #image1:hover {
+opacity: 0.3;
+
+ }
+
+ #image2:hover{
+    opacity: 0.3;
+ }
+ #image3:hover{
+    opacity: 0.3;
+}
+#image4:hover{
+    opacity: 0.3;
+}
+#image5:hover{
+    opacity: 0.3;
+}
+ #theestate:hover{
+    opacity: 0.3;
+ }
+
 //  Footer
 
  .footer {
@@ -169,7 +191,7 @@ background-attachment: fixed;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 20vh;
@@ -291,7 +313,7 @@ background-attachment: fixed;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/damsteep.png');
 
 background-size: cover;
 height: 100vh;
@@ -432,7 +454,7 @@ input[type=text]{
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 100vh;
@@ -489,7 +511,7 @@ background-attachment: fixed;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 100vh;
@@ -545,7 +567,7 @@ background-attachment: fixed;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 100vh;
@@ -559,7 +581,7 @@ background-attachment: fixed;
         rgba(182, 117, 51, 0.918), 
         rgba(182, 117, 51, 0.747)
     ),
-    url('../../images/background-home.jpeg');
+    url('../../images/background_home.png');
 
 background-size: cover;
 height: 10vh;
