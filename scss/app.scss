@@ -273,7 +273,7 @@ background-attachment: fixed;
     font-size: 25px;
     font-family: 'Playfair Display', serif; 
 }
-  span {
+  #MENU {
     font-family: 'Playfair Display', serif; 
       font-size:30px;
       cursor: pointer; 
@@ -353,8 +353,6 @@ width: 100vw;
     cursor: pointer;
     background: black;
     color: white;
-
-
 }
  .gallery{
      margin-left: 20px;
@@ -516,40 +514,56 @@ background-attachment: fixed;
     url('../../images/background_home.png');
 
 background-size: cover;
-height: 100vh;
+height: 40vh;
 width: 100vw;
 background-attachment: fixed;
 }
+.contact-details {
+   
+    background: 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    url('../../images/background_home.png');
 
-.contact-info-1{
+background-size: cover;
+height: 40vh;
+width: 100vw;
+background-attachment: fixed;
+}
+.contact-info {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 550px;
+
 }
 
-.contact-info-2{
+.contact-details{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.contact-info-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-info-1 {
+padding-right: 150px;
 }
-.contact-info-4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-info-2 {
+    padding-left: 150px;
 }
+.contact-info-3 {
+    padding-right: 150px;
+}
+.contact-info-4 {
+    padding-left: 150px;
+}
+
 
 .contact-info h1{
     margin: 0%;
     color: white;
     font-family: 'Playfair Display', serif; 
-    font-size: 40px; 
-     text-align: center;
+    font-size: 30px; 
+    text-align: center;
 }
 .contact-info p{
     margin: 0%;
@@ -559,6 +573,20 @@ background-attachment: fixed;
     text-align: center;
 }
 
+.contact-details h1 {
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px; 
+    text-align: center;
+}
+.contact-details p {
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 30px; 
+    text-align: center;  
+}
 
 .map {
     background: 
@@ -603,4 +631,61 @@ background-attachment: fixed;
 text-decoration: underline;
 cursor: pointer;
 text-decoration-color: white;
+}
+
+
+// INDEX 4 
+.contact-submit{
+    background: 
+    linear-gradient(
+        rgba(182, 117, 51, 0.918), 
+        rgba(182, 117, 51, 0.747)
+    ),
+    url('../../images/background_home.png');
+
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-attachment: fixed; 
+}
+
+.contact-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-submit-content{
+    padding-left: 200px;
+    padding-top: 0px;
+   
+    padding-right: 200px;
+    align-items: center;
+    text-align: center;
+}
+.contact-submit p {
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 80px;
+    padding-bottom: 20px;
+    
+}
+
+#return {
+    margin: 0%;
+    color: white;
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px; 
+    text-decoration: none;
+    border-style: solid;
+     border-color: black;
+  border-width: thin;
+  padding: 5px;
+}
+
+#return:hover{
+    cursor: pointer;
+    background: black;
+    color: white;  
 }
