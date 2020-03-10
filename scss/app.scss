@@ -6,6 +6,31 @@
  height: 100vh;
  width: 100vw;
   }
+
+  .row  {
+    margin: 0%;
+}
+
+.row {
+    display: flex;
+}
+
+
+ .column {
+     width: 100vw;
+     height:100vh;
+
+ }
+  .column{
+     opacity: 0;
+     transition: all ease 0.8s;
+  }
+
+  .hero:hover .column{
+    opacity: 1;
+  }
+
+
  
 .logo img {
     position: absolute;
@@ -69,7 +94,7 @@ padding-top: 200px;
 // OUR WINE
 .Wine {
 position: absolute;
-top: 1650px;
+top: 1800px;
 left: 670px;
 }
 .Wine h1 {
@@ -98,7 +123,7 @@ background-attachment: fixed;
 
 
 .media-item-image{
-padding-bottom: 100px;
+padding-top: 150px;
 }
 .media-item img {
     width: 600px;
@@ -108,7 +133,7 @@ padding-bottom: 100px;
  .media-item-text{
      padding-left: 100px;
      padding-right: 100px;
-     padding-top: 150px;
+     padding-top: 320px;
  }
 
 .media-item p {
@@ -134,7 +159,6 @@ height: 95vh;
 width: 100vw;
 background-attachment: fixed;
     }
-
 
 .image-layout-1{ 
    display: flex;
@@ -168,6 +192,8 @@ opacity: 0.3;
  #theestate:hover{
     opacity: 0.3;
  }
+
+
 
 //  Footer
 
@@ -689,3 +715,173 @@ background-attachment: fixed;
     background: black;
     color: white;  
 }
+
+
+
+@media only screen and (max-width:600px) {
+
+// Home page
+.row{
+    display: none;
+}
+.hero {
+    background-image: url('../../images/background_home.png');
+    background-size: cover;
+ height: 100vh;
+ width: 100vw;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 20%;
+}
+
+.media {
+    flex-direction: column;
+    }
+
+.media img {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    padding-top: 0px;
+ }
+
+ .heading{
+    position: absolute;
+    top: 760px;
+    left: 140px;
+}
+.heading h1 {
+font-family: 'Playfair Display', serif; 
+    margin: 0%;
+    font-size: 40px;
+    color: white;
+}  
+
+.media-intro {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.media p {
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0%;
+    color: white;
+}
+
+.Wine {
+    position: absolute;
+    
+    }
+    .Wine h1 {
+    
+        font-family: 'Playfair Display', serif; 
+            margin: 0%;
+            font-size: 40px;
+            color: white;
+        }
+        .media-item{
+            flex-direction: column;
+        }
+       
+            .media-item img {
+           display: none;
+             }
+            
+             .media-item-text{
+                padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+             }
+            
+            .media-item p {
+                font-family: 'Playfair Display', serif; 
+                font-size: 20px;
+                line-height: 45px;
+                text-align: center;
+                margin: 0%;
+                color: white;
+            }
+
+            .image-layout {
+                background: 
+                linear-gradient(
+                    rgba(182, 117, 51, 0.918), 
+                    rgba(182, 117, 51, 0.747)
+                ),
+                url('../../images/background_home.png');
+            
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            background-attachment: fixed;
+            }
+
+            .image-layout-1{ 
+                flex-direction: column;
+                padding-top: 140px;
+             }
+             .image-layout-2{
+                flex-direction: column;
+             }
+             .image-layout img {
+                 width: 100vw;
+                 height: 50vh;
+             }
+             #image1:hover {
+                opacity: 1;
+                
+                 }
+                
+                 #image2:hover{
+                    opacity: 1;
+                 }
+                 #image3:hover{
+                    opacity: 1;
+                }
+                #image4:hover{
+                    opacity: 1;
+                }
+                #image5:hover{
+                    opacity: 1;
+                }
+                 #theestate:hover{
+                    opacity: 1;
+                 }
+
+
+                 .footer {
+                    background: 
+                    linear-gradient(
+                        rgba(182, 117, 51, 0.918), 
+                        rgba(182, 117, 51, 0.747)
+                    ),
+                    url('../../images/background_home.png');
+                
+                background-size: cover;
+                height: 100vh;
+                width: 100vw;
+                background-attachment: fixed;
+                    }
+
+
+             .footer-text{
+                flex-direction: column;
+               justify-content: center;
+               align-items: center;
+
+             }
+             .footer-text{
+                font-family: 'Playfair Display', serif; 
+                font-size: 20px;
+                line-height: 45px;
+                text-align: center;
+                margin: 0%;
+                color: white;
+             }
+            }
